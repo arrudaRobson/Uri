@@ -25,7 +25,7 @@ public class Exercicio1010
 		
 		venda =  (quantPecaUm * precoPecaUm) + (quantPecaDois * precoPecaDois);
 		
-		System.out.printf("VALOR A PAGAR = R$ %.2f\n", + venda);
+		System.out.printf("VALOR A PAGAR: R$ %.2f\n", + venda);
 		
 	}
 }
