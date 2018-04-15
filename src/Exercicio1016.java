@@ -13,6 +13,6 @@ public class Exercicio1016
 		
 		tempo = (60 * km) / 30;
 		
-		System.out.printf("%d minutos\n", + tempo);
+		System.out.printf("%d minutos\n", tempo);
 	}
 }

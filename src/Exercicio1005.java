@@ -14,7 +14,7 @@ public class Exercicio1005
 		
 		media = ((A * 3.5) + (B * 7.5)) / 11;
 		
-		System.out.printf("MEDIA = %.5f\n", + media);
+		System.out.printf("MEDIA = %.5f\n", media);
 		
 	}
 }

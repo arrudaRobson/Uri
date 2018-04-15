@@ -21,7 +21,7 @@ public class Exercicio1012
 		double quadrado = Math.pow(B, 2);
 		double retangulo = A * B;
 		
-		System.out.printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n", +
+		System.out.printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n", 
 				triangulo, circulo, trapezio, quadrado, retangulo);
 	}
 }

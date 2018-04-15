@@ -14,7 +14,7 @@ public class Exercicio1003
 		
 		soma = A + B;
 		
-		System.out.printf("SOMA = %d\n", + soma);
+		System.out.printf("SOMA = %d\n", soma);
 		
 	}
 }

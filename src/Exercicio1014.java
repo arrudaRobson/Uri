@@ -15,6 +15,6 @@ public class Exercicio1014
 		
 		consumo = x / y;
 		
-		System.out.printf("%.3f km/l\n", + consumo);
+		System.out.printf("%.3f km/l\n", consumo);
 	}
 }

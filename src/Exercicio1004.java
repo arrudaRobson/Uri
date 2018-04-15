@@ -14,7 +14,7 @@ public class Exercicio1004
 		
 		prod = A * B;
 		
-		System.out.printf("PROD = %d\n", + prod);
+		System.out.printf("PROD = %d\n", prod);
 		
 	}
 }

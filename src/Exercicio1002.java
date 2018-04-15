@@ -11,6 +11,6 @@ public class Exercicio1002 {
 		raio = entrada.nextDouble();
 		area = (raio * raio) * pi;
 		
-		System.out.printf("A=%.4f\n", + area);
+		System.out.printf("A=%.4f\n", area);
 	}
 }

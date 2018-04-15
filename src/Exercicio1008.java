@@ -16,8 +16,8 @@ public class Exercicio1008
 		
 		salario = horas * valorHora;
 		
-		System.out.printf("NUMBER = %d\n", + idFun);
-		System.out.printf("SALARY = U$ %.2f\n", + salario);
+		System.out.printf("NUMBER = %d\n", idFun);
+		System.out.printf("SALARY = U$ %.2f\n", salario);
 		
 		
 		

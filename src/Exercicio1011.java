@@ -13,6 +13,6 @@ public class Exercicio1011
 		raio = entrada.nextFloat();
 		volume = (4.0/3.0) * (pi * Math.pow(raio, 3));
 		
-		System.out.printf("VOLUME = %.3f\n", + volume);
+		System.out.printf("VOLUME = %.3f\n", volume);
 	}
 }

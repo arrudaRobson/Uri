@@ -18,7 +18,7 @@ public class Exercicio1009
 		
 		salarioComBonus = salarioFixo + bonus;
 		
-		System.out.printf("TOTAL = R$ %.2f\n", + salarioComBonus);
+		System.out.printf("TOTAL = R$ %.2f\n", salarioComBonus);
 		
 	}
 }

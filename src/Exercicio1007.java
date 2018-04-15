@@ -16,7 +16,7 @@ public class Exercicio1007
 		
 		dif = ((A * B) - (C * D));
 		
-		System.out.printf("DIFERENCA = %d\n", + dif);
+		System.out.printf("DIFERENCA = %d\n", dif);
 		
 	}
 }
