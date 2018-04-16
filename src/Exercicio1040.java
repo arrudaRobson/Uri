@@ -5,8 +5,7 @@ public class Exercicio1040
 {
 	public static void main(String[] args) throws IOException
 	{
-		float a, b, c, d;
-		double media;
+		float a, b, c, d, media, rec;
 		
 		Scanner entrada = new Scanner(System.in);
 		String dados[] = entrada.nextLine().split(" ");
@@ -24,23 +23,22 @@ public class Exercicio1040
 		}
 		
 		else if (media > 5 && media < 6) {
-			
-			double rec = entrada.nextDouble();
-			
 			System.out.printf("Media: %.1f\n",  media);
 			System.out.println("Aluno em exame.");
-			System.out.printf("Nota do exame: %.1f\n", rec);
-			rec += media;
-			media = rec / 2;
+			
+			float e = entrada.nextFloat();
+			
+			System.out.printf("Nota do exame: %.1f\n", e);
+			rec = (media + e) / 2;
 			
 			if (media >= 5) {
 				System.out.println("Aluno aprovado.");
-				System.out.printf("Media final: %.1f\n",  media);
+				System.out.printf("Media final: %.1f\n",  rec);
 			}
 			
 			else {
 				System.out.println("Aluno reprovado.");
-				System.out.printf("Media final: %.1f\n",  media);
+				System.out.printf("Media final: %.1f\n",  rec);
 			}
 		}
 		
