@@ -16,11 +16,11 @@ public class Exercicio1043
 
 		if (((b - c < a) && (a < b + c)) && ((a - c < b) && (b < a + c)) && ((a - b < c) && (c < a + b))) {
 			x = a + b + c;
-			System.out.printf("Perimetro = %.1f", x);
+			System.out.printf("Perimetro = %.1f\n", x);
 		}
 		else {
 			y = ((a + b) * c) / 2;
-			System.out.printf("Area = %.1f", y);
+			System.out.printf("Area = %.1f\n", y);
 		}
 	}	
 }

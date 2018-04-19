@@ -8,7 +8,7 @@ public class Exercicio1048
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		x = entrada.nextFloat();
+		x = entrada.nextDouble();
 		
 		if (x > 0 && x <= 400) {
 			double salario = x;

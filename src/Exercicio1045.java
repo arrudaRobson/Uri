@@ -45,7 +45,7 @@ public class Exercicio1045
 			if  ((a == b) && (a == c)) {
 				System.out.println("TRIANGULO EQUILATERO");
 			}
-			if (a == b || a == c || b ==  c) {
+			if (((a == b) &&(a != c)) || ((a == c) &&(a != b)) || ((b == c) &&(b != a))){
 				System.out.println("TRIANGULO ISOSCELES");
 			}
 		}

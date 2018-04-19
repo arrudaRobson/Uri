@@ -9,10 +9,15 @@ public class Exercicio1073
 		
 		Scanner entrada = new Scanner(System.in);
 		n = entrada.nextInt();
+		x = 0;
 		if (n > 5 && n < 2000) {
-			if (n % 2 == 0) {
-				x = n * n;
-				System.out.println(n + "^2 = " + x);
+			for(int i = 0; i <= n; i++) {
+				if (x % 2 == 0 && x > 0 && x <= n) {
+					int a = x * x;
+					System.out.println(x + "^2 = " + a);
+					x +=1;
+				}
+				x +=1;
 			}
 		}
 	}
