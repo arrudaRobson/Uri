@@ -3,8 +3,9 @@ import java.util.Scanner;
 
 public class Exercicio1051
 {
-	public static void main(String[] args) throws IOException {
-		double x;
+	public static void main(String[] args) throws IOException 
+	{
+		double x, imposto = 0;
 		
 		Scanner entrada = new Scanner(System.in);
 		
@@ -12,44 +13,20 @@ public class Exercicio1051
 		
 		if (x > 0 && x <= 2000) {
 			System.out.println("Isento");
-		}
-		else if (x >= 2000.01 && x <= 3000) {
-			double a = x;
-			double y = 1000;
-			a -= y;
-			if (a > 2000) {
-				double b = 0;
-				b -= a;
-				double imposto = (y * 0.08) + (b * 0.18);  
-				System.out.printf("%.2f\n",imposto);
-			}
-			else {
-				double imposto = (y * 0.08);  
-				System.out.printf("%.2f\n",imposto);
-			}
-		}
-		else if (x >= 3000.01 && x <= 4500) {
-			double a = x;
-			double y = 1000;
-			double b = 1500;
-			a -= y;
-			if (a > 1000) {
-				b = 0;
-				b -= a;
-				double imposto = (y * 0.08) + (b * 0.18);  
-				System.out.printf("%.2f\n",imposto);
-			}
-			if (a > 2000) {
-				double z = 0;
-				z -= a;
-				double imposto = (y * 0.08) + (b * 0.18) + (z * 0.28);  
-				System.out.printf("%.2f\n",imposto);
-			}
-				
-			else {
-				double imposto = (y * 0.08)+ (b * 0.18);  
-				System.out.printf("%.2f\n",imposto);
-			}
-		}
+			return;
+		} else if (x >= 2000.01 && x <= 3000) {
+			x -= 2000;
+			imposto = (x * 0.08);  
+	
+		} else if (x >= 3000.01 && x <= 4500) {
+			x -= 3000;
+			imposto = (1000 * 0.08) + (x * 0.18);  
+			
+		} else if (x > 4500.00) {
+			x -= 4500;
+			imposto = (1000 * 0.08) + (1500 * 0.18) + (x * 0.28);  
+			
+		} 
+		System.out.printf("R$ %.2f\n",imposto);
 	}
 }
