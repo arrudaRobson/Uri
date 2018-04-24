@@ -5,12 +5,17 @@ public class Exercicio1080
 {
 	public static void main(String[] args) throws IOException
 	{
-		int x, b = 0;
+		int x, b = 0, a = 0;
 		Scanner entrada = new Scanner(System.in);
+		
 		for(int i = 1; i <= 100; i++) {
-			String dados[] = entrada.nextLine().split("\n");
-			x = Integer.parseInt(dados[i]);
-			b = Math.max(x, b);
+			x = entrada.nextInt();
+			if(x > b) {
+				b = x;
+				a = i;
+			}
 		}
+		System.out.println(b);
+		System.out.println(a);
 	}
 }
